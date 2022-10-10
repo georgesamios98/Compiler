@@ -1,0 +1,19 @@
+program min
+{
+	declare int1,int2,temp;
+	{
+		int1:=-13;
+		int2:=13;
+		if(int1>int2 and int2>13) then
+		{
+			temp:=10;
+			int2:=20;
+			while(int1<int2)
+			{
+				temp:=int1;
+				int2:=int1+(-2);
+				return int1;
+			}
+		}
+	}
+}

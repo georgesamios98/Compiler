@@ -1,0 +1,40 @@
+program min
+{
+	declare int1,int2,temp;
+
+	function add(in x,in y){
+		{
+			return x + y;
+		}
+	}
+
+	{
+		int1 := -13;
+		int2 := 13;
+		if(int1<0 and int2>0) then
+		{
+
+			while(int1>=2)
+			{
+				temp:=int1;
+				int2:=int1;
+				print(int1)
+			}
+		}
+		else{
+			while(int1<=int2)
+			{
+				temp := temp+2;
+				int1 := add(in int1,in temp);
+			}
+		};
+		forcase when(int1<1):
+				int1:=int1*1
+				
+		default:{
+			int2:=4
+		}
+	}	
+}
+
+
