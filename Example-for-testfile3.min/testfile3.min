@@ -1,0 +1,13 @@
+ program foo
+{
+	declare int1;
+	{
+		int1 := 1;
+		while(int1<>4)
+		{
+			int1 := int1 + 1;
+		};
+		int1:=int1- 3;
+		print(int1);
+	}
+}

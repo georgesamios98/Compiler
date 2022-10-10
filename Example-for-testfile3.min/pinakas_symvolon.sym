@@ -1,0 +1,5 @@
+
+Scope: foo	nestingLevel: 0
+	Entity: int1	offset: 12
+	Entity: T_1	offset: 16
+	Entity: T_2	offset: 20
